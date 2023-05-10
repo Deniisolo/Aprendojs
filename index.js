@@ -35,16 +35,28 @@
 //     const colorbc = document.getElementById("cbcolor").value 
 //     document.body.style.backgroundColor= colorbc;
 // }
-// let contar = 0
-// let contar2 = 0
-// function contador1 (){
-//   contar=contar+1 
-//   document.getElementById("puntos1").innerHTML = contar
-// }
-// function contador2 (){
-//   contar2=contar2+1 
-//   document.getElementById("puntos2").innerHTML = contar2 
-// }
+let contar = 0
+let contar2 = 0
+function contador1 (){
+  contar=contar+1 
+  document.getElementById("puntos1").innerHTML = contar
+  cualmayor()
+}
+function contador2 (){
+  contar2=contar2+1 
+  document.getElementById("puntos2").innerHTML = contar2 
+  cualmayor()
+}
+function cualmayor (){
+    if(contar>contar2){
+        console.log( "el primer botón va ganando")
+        document.getElementById("cualesmayor").innerHTML="el primer botón va ganando"
+    }
+    if(contar<contar2){
+        console.log("el segundo botón va ganando")
+        document.getElementById("cualesmayor").innerHTML="el segundo botón va ganando"
+    }
+}
 // function saludar(nombre, edad) {
 //     return `Hola, ${nombre}, tienes ${edad}!`;
 // }
@@ -62,7 +74,7 @@
 //     return a / b
 // }
 // console.log (sumar (2,7))
-function calcularIVA(precio){
-    return precio + (21 * precio / 100)
-}
-console.log (calcularIVA(22))
+// function calcularIVA(precio){
+//     return precio + (21 * precio / 100)
+// }
+// console.log (calcularIVA(22))
