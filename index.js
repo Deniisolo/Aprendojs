@@ -56,6 +56,10 @@ function cualmayor (){
         console.log("el segundo botón va ganando")
         document.getElementById("cualesmayor").innerHTML="el segundo botón va ganando"
     }
+    if( contar==contar2){
+        console.log("empate ome")
+        document.getElementById("cualesmayor").innerHTML="empate ome"
+    }
 }
 // function saludar(nombre, edad) {
 //     return `Hola, ${nombre}, tienes ${edad}!`;
@@ -78,3 +82,16 @@ function cualmayor (){
 //     return precio + (21 * precio / 100)
 // }
 // console.log (calcularIVA(22))
+
+let var1 = "denisolo@gmail.com"
+let var2 = "34r43r"
+
+console.log("Antes de veriicar el usuario")
+if (var1 == "denisolo@gmail.com") {
+    console.log("Antes de veriicar la contraseña")
+    if (var2 == "r34r34r4") {
+        console.log("Aceptado")
+    }
+    console.log("Despues de verificar la contraseña ")
+}
+console.log("Después de veriicar el usuario")
