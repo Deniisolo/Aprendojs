@@ -12,7 +12,7 @@
 //     }
 // }
   
-function boton() {
+function boton() { 
         let usuario = document.getElementById("user").value;
         let contrasena = document.getElementById("password").value;
         if (usuario ==  "denisolo@gmail.com" && contrasena== "Flores")
