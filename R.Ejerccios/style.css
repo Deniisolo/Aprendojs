@@ -1,0 +1,9 @@
+input{
+    display: block;
+    width: 10rem;
+    padding: 0.938rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #eeecec;
+    box-shadow: 2px 2px 5px rgba(124, 114, 114, 0.3);
+}
