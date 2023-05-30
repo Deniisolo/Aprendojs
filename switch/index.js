@@ -26,21 +26,46 @@
 //     console.log("Día inválido");
 // }
 
-let mes = 2;
+// let mes = 2;
 
-switch (mes) {
+// switch (mes) {
+//   case 1:
+//     console.log("Enero");
+//     break;
+//   case 2:
+//     console.log("Febrero");
+//     break;
+//   case 3:
+//     console.log("Marzo");
+//     break;
+//   case 4:
+//     console.log("Abril");
+//     break;
+//   default:
+//     console.log("NO ESTÁ");
+// }
+
+//Escribe un programa que tome una calificación del 1 al 5 como entrada y
+// muestre un mensaje correspondiente utilizando la estructura condicional switch.
+
+let mensaje = 8;
+
+switch (mensaje) {
   case 1:
-    console.log("Enero");
+    console.log("holi");
     break;
   case 2:
-    console.log("Febrero");
+    console.log("HELLO");
     break;
   case 3:
-    console.log("Marzo");
+    console.log("Que mas?");
     break;
   case 4:
-    console.log("Abril");
+    console.log("chaito");
+    break;
+  case 5:
+    console.log("bye");
     break;
   default:
-    console.log("NO ESTÁ");
+    console.log("No esta la información");
 }
