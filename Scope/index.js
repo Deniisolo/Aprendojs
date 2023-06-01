@@ -1,7 +1,8 @@
-let minombre ="Denis";
+let minombre="Denis"
 
-function nombre (){
-    let miApellido ="Alvarez"
-    console.log(minombre+" "+miApellido)
+function nombre () {
+    let miapellido="Alvarez"
+    console.log( minombre + "" + miapellido)
 }
 
+console.log(minombre)
