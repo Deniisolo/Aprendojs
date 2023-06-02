@@ -24,3 +24,8 @@
 //     console.log("contador igual a:" + contador)
 //     contador= contador +1;
 // }
+
+function calculateDays() {
+    const numberOfDays = document.getElementById("number-days").value
+    console.log(numberOfDays)
+}
