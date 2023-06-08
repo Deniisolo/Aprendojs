@@ -112,24 +112,47 @@
 // como entrada y muestre la calificación correspondiente en palabras utilizando una declaración switch.
 //  Por ejemplo, si el usuario ingresa 3, el programa debe mostrar "Aprobado".
 
-let calificacion = parseInt(prompt("Ingresa una calificación del 1 al 5:"));
+// let calificacion = parseInt(prompt("Ingresa una calificación del 1 al 5:"));
 
-switch (calificacion) {
-  case 1:
-    console.log("Muy deficiente");
-    break;
-  case 2:
-    console.log("Insuficiente");
-    break;
-  case 3:
-    console.log("Aprobado");
-    break;
-  case 4:
-    console.log("Notable");
-    break;
-  case 5:
-    console.log("Sobresaliente");
-    break;
-  default:
-    console.log("Número invalido");
+// switch (calificacion) {
+//   case 1:
+//     console.log("Muy deficiente");
+//     break;
+//   case 2:
+//     console.log("Insuficiente");
+//     break;
+//   case 3:
+//     console.log("Aprobado");
+//     break;
+//   case 4:
+//     console.log("Notable");
+//     break;
+//   case 5:
+//     console.log("Sobresaliente");
+//     break;
+//   default:
+//     console.log("Número invalido");
+// }
+
+let Rock = "Rock";
+let Paper = "Paper";
+let Scissors = "Scissors";
+
+function game(player, pc) {
+  switch (true) {
+    case (player === Paper && pc === Rock) ||
+      (player === Rock && pc === Scissors) ||
+      (player === Scissors && pc === Paper):
+      console.log(" Player Gananasteeeeesss");
+      break;
+    case (pc === Paper && player === Rock) ||
+      (pc === Rock && player === Scissors) ||
+      (pc === Scissors && player === Paper):
+      console.log(" PC Gananasteeeeesss");
+      break;
+    default:
+      console.log("no valido");
+      break;
+  }
 }
+game(Paper, Scissors);
