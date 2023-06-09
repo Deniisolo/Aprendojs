@@ -14,3 +14,18 @@ console.log(frutas[3]);
 
 let masfrutas= frutas.push("Tomate")
 console.log(frutas)
+
+//Para eliminar el último elemento de la lista 
+
+let ultimo = frutas.pop("Tomate")
+console.log(frutas)
+
+// para poner un nuevo elemento en la lista pero que quede de primeras
+
+let nuevoelemento = frutas.unshift("guanabana")
+console.log(frutas)
+
+//para eliminar un elemento que este de primeras
+
+let eleminar1 = frutas.shift("guanabana")
+console.log(frutas)
