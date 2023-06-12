@@ -134,25 +134,58 @@
 //     console.log("Número invalido");
 // }
 
-let Rock = "Rock";
-let Paper = "Paper";
-let Scissors = "Scissors";
+// let Rock = "Rock";
+// let Paper = "Paper";
+// let Scissors = "Scissors";
 
-function game(player, pc) {
-  switch (true) {
-    case (player === Paper && pc === Rock) ||
-      (player === Rock && pc === Scissors) ||
-      (player === Scissors && pc === Paper):
-      console.log(" Player Gananasteeeeesss");
-      break;
-    case (pc === Paper && player === Rock) ||
-      (pc === Rock && player === Scissors) ||
-      (pc === Scissors && player === Paper):
-      console.log(" PC Gananasteeeeesss");
-      break;
-    default:
-      console.log("no valido");
-      break;
-  }
+// function game(player, pc) {
+//   switch (true) {
+//     case (player === Paper && pc === Rock) ||
+//       (player === Rock && pc === Scissors) ||
+//       (player === Scissors && pc === Paper):
+//       console.log(" Player Gananasteeeeesss");
+//       break;
+//     case (pc === Paper && player === Rock) ||
+//       (pc === Rock && player === Scissors) ||
+//       (pc === Scissors && player === Paper):
+//       console.log(" PC Gananasteeeeesss");
+//       break;
+//     default:
+//       console.log("no valido");
+//       break;
+//   }
+// }
+// game(Paper, Scissors);
+
+//Ejercicio 1:Escribe un programa que tome un número del 1 al 7 como entrada
+// e imprima el día de la semana correspondiente utilizando una declaración switch.
+
+let dia = 5;
+switch (dia) {
+  case 1:
+    console.log("Lunes");
+    break;
+  case 2:
+    console.log("Martes");
+    break;
+  case 3:
+    console.log("Miercoles")
+    break;
+  case 4:
+    console.log("Jueves")
+    break;
+  case 5:
+    console.log("Vernes")
+    break;
+  case 6:
+    console.log("Sabado")
+    break;
+  case 7:
+    console.log("Domingo")
+    break;
+  default:
+    console.log("Día no valido")
+    break;
 }
-game(Paper, Scissors);
+
+
