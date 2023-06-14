@@ -7,3 +7,8 @@
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
+var nombres = ["Andres", "Diego", "Platzi", "Ramiro", "Silvia"]
+
+for(var i = 0; i < nombres.length; i++){
+    console.log( nombres[i] )
+}
