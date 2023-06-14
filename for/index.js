@@ -4,11 +4,26 @@
 //   }
 // Ejemplo:
 
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
-var nombres = ["Andres", "Diego", "Platzi", "Ramiro", "Silvia"]
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
+// var nombres = ["Andres", "Diego", "Platzi", "Ramiro", "Silvia"]
 
-for(var i = 0; i < nombres.length; i++){
-    console.log( nombres[i] )
-}
+// for(var i = 0; i < nombres.length; i++){
+//     console.log( nombres[i] )
+// }
+
+// for ( let i = 0; i <= 20; i++){
+//   console.log(i)
+// }
+// Ejercicio 1: Imprimir números del 1 al 10
+
+// for ( let i= 0; i <= 10; i++){
+//   console.log(i)
+// }
+
+//Ejercicio 2: Imprimir los primeros 5 números pares
+
+// for ( let i=0; i <= 5; i += 2) {
+//   console.log(i)
+// }
