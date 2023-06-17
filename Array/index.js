@@ -6,7 +6,7 @@ console.log(frutas)
 
 console.log(frutas.length); 
 
-// // para aceder a un Array en especifico se comienza a contar desde (0)
+// // para aceder a un  elemento de la Array en especifico se comienza a contar desde (0)
 
 console.log(frutas[3]);
 

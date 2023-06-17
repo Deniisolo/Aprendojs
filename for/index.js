@@ -29,8 +29,14 @@
 // }
 // Ejercicio 3: Calcular la suma de los primeros 10 números naturales
 
-let suma = 0;
-for (let i = 1; i <= 10; i++) {
-  suma += i;
+// let suma = 0;
+// for (let i = 1; i <= 10; i++) {
+//   suma += i;
+// }
+// console.log(suma);
+
+let Amor = ["Cesar", "Augusto", "Torres", "Ardila"]
+for ( let i = 0; i < Amor.length; i++){
+  console.log("Hola "+ Amor[i] + "!" )
+
 }
-console.log(suma);
