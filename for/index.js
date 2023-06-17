@@ -27,3 +27,10 @@
 // for ( let i=0; i <= 5; i += 2) {
 //   console.log(i)
 // }
+// Ejercicio 3: Calcular la suma de los primeros 10 números naturales
+
+let suma = 0;
+for (let i = 1; i <= 10; i++) {
+  suma += i;
+}
+console.log(suma);
