@@ -35,8 +35,14 @@
 // }
 // console.log(suma);
 
-let Amor = ["Cesar", "Augusto", "Torres", "Ardila"]
-for ( let i = 0; i < Amor.length; i++){
-  console.log("Hola "+ Amor[i] + "!" )
+// let Amor = ["Cesar", "Augusto", "Torres", "Ardila"]
+// for ( let i = 0; i < Amor.length; i++){
+//   console.log("Hola "+ Amor[i] + "!" )
+// }
 
+for ( let i=1; i <= 10; i++){
+  let resultado = i * 2;
+   console.log( "2"+ "*" + i + "=" + resultado )
 }
+
+
