@@ -12,8 +12,23 @@
 //     return articulo.costo <= 500
 // });
 
-let nombres = ["Paula", "Rocio", "cielo", "Andres", "Cesar"];
-nombres.forEach(function(nombres){
-    console.log(nombres);
-})
+//FOREACH
+// let nombres = ["Paula", "Rocio", "cielo", "Andres", "Cesar"];
+// nombres.forEach(function(nombre){
+//     console.log(nombre);
+// })
 
+//MAP
+// const numeros = [1, 2, 3, 4, 5];
+
+// const multiplicados = numeros.map(function(numero) {
+//   return numero * 2;
+// });
+
+// console.log(multiplicados);
+
+// let nombres = ["Paula", "Rocio", "cielo", "Andres", "Cesar"];
+//  let saludar = nombres.map (function(nombre){
+//     return "HOLA " + nombre;
+//  });
+//  console.log(saludar)
