@@ -1,13 +1,22 @@
-// let articulos = [
-//     { nombre: "Bici", costo: 3000},
-//     { nombre: "Tv", costo: 2500 },
-//     { nombre: "Libro", costo: 320 },
-//     { nombre: "Celular", costo: 10000 },
-//     { nombre: "Laptop", costo: 20000 },
-//     { nombre: "Teclado", costo: 500},
-//     { nombre: "Audifonos", costo: 1700},  
-// ];
+let articulos = [
+    { nombre: "Bici", costo: 3000},
+    { nombre: "Tv", costo: 2500 },
+    { nombre: "Libro", costo: 320 },
+    { nombre: "Celular", costo: 10000 },
+    { nombre: "Laptop", costo: 20000 },
+    { nombre: "Teclado", costo: 500},
+    { nombre: "Audifonos", costo: 1700},  
+];
 
+// articulos.forEach(function(artilulo){
+//     console.log(artilulo.nombre);
+// })
+
+var articulosbaratos = articulos.some(function(articulo){
+    return articulo.costo <= 700;
+})
+
+articulosbaratos()
 // let articulosFiltrados = articulos.filter(function(articulo){
 //     return articulo.costo <= 500
 // });
